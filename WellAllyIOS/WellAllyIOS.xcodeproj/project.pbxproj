@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000101 /* WellAllyIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* WellAllyIOSApp.swift */; };
+		000000000000000000000102 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000002 /* JSONValue.swift */; };
+		000000000000000000000103 /* AIProviderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003 /* AIProviderConfig.swift */; };
+		000000000000000000000104 /* HealthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000004 /* HealthModels.swift */; };
+		000000000000000000000105 /* LLMTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000005 /* LLMTypes.swift */; };
+		000000000000000000000106 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000006 /* URLSessionProtocol.swift */; };
+		000000000000000000000107 /* OpenAICompatibleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* OpenAICompatibleClient.swift */; };
+		000000000000000000000108 /* AnthropicClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* AnthropicClient.swift */; };
+		000000000000000000000109 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* KeychainService.swift */; };
+		00000000000000000000010A /* AISettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* AISettingsStore.swift */; };
+		00000000000000000000010B /* DemoHealthDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* DemoHealthDataStore.swift */; };
+		00000000000000000000010C /* HealthToolRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000C /* HealthToolRegistry.swift */; };
+		00000000000000000000010D /* AgentLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* AgentLoop.swift */; };
+		00000000000000000000010E /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E /* DesignSystem.swift */; };
+		00000000000000000000010F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* ContentView.swift */; };
+		000000000000000000000110 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* HomeView.swift */; };
+		000000000000000000000111 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* RecordsView.swift */; };
+		000000000000000000000112 /* AIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000012 /* AIView.swift */; };
+		000000000000000000000113 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000013 /* SettingsView.swift */; };
+		000000000000000000000114 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000014 /* FamilyView.swift */; };
+		000000000000000000000115 /* en Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000015 /* en Localizable.strings */; };
+		000000000000000000000116 /* zh-Hans Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000016 /* zh-Hans Localizable.strings */; };
+		000000000000000000000117 /* en InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000017 /* en InfoPlist.strings */; };
+		000000000000000000000118 /* zh-Hans InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000018 /* zh-Hans InfoPlist.strings */; };
+		000000000000000000000119 /* AppLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000019 /* AppLocalizer.swift */; };
+		000000000000000000000201 /* AISettingsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000021 /* AISettingsStoreTests.swift */; };
+		000000000000000000000202 /* ProviderClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000022 /* ProviderClientTests.swift */; };
+		000000000000000000000203 /* AgentLoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000023 /* AgentLoopTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000000000000000401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000501;
+			remoteInfo = WellAllyIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000001 /* WellAllyIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellAllyIOSApp.swift; sourceTree = "<group>"; };
+		000000000000000000000002 /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		000000000000000000000003 /* AIProviderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProviderConfig.swift; sourceTree = "<group>"; };
+		000000000000000000000004 /* HealthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModels.swift; sourceTree = "<group>"; };
+		000000000000000000000005 /* LLMTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMTypes.swift; sourceTree = "<group>"; };
+		000000000000000000000006 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		000000000000000000000007 /* OpenAICompatibleClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAICompatibleClient.swift; sourceTree = "<group>"; };
+		000000000000000000000008 /* AnthropicClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthropicClient.swift; sourceTree = "<group>"; };
+		000000000000000000000009 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		00000000000000000000000A /* AISettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsStore.swift; sourceTree = "<group>"; };
+		00000000000000000000000B /* DemoHealthDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoHealthDataStore.swift; sourceTree = "<group>"; };
+		00000000000000000000000C /* HealthToolRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthToolRegistry.swift; sourceTree = "<group>"; };
+		00000000000000000000000D /* AgentLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentLoop.swift; sourceTree = "<group>"; };
+		00000000000000000000000E /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		00000000000000000000000F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000000000000000000000010 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		000000000000000000000011 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		000000000000000000000012 /* AIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
+		000000000000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		000000000000000000000014 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		000000000000000000000015 /* en Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en Localizable.strings"; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		000000000000000000000016 /* zh-Hans Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans Localizable.strings"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		000000000000000000000017 /* en InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en InfoPlist.strings"; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000000000000000000000018 /* zh-Hans InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans InfoPlist.strings"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		000000000000000000000019 /* AppLocalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalizer.swift; sourceTree = "<group>"; };
+		000000000000000000000021 /* AISettingsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsStoreTests.swift; sourceTree = "<group>"; };
+		000000000000000000000022 /* ProviderClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderClientTests.swift; sourceTree = "<group>"; };
+		000000000000000000000023 /* AgentLoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentLoopTests.swift; sourceTree = "<group>"; };
+		000000000000000000000601 /* WellAllyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellAllyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000602 /* WellAllyIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellAllyIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000701 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000702 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000801 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000802 /* WellAllyIOS */,
+				000000000000000000000803 /* WellAllyIOSTests */,
+				000000000000000000000804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000802 /* WellAllyIOS */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000001 /* WellAllyIOSApp.swift */,
+				000000000000000000000805 /* Models */,
+				000000000000000000000806 /* Services */,
+				000000000000000000000807 /* Views */,
+				00000000000000000000080C /* Localization */,
+			);
+			path = WellAllyIOS;
+			sourceTree = "<group>";
+		};
+		000000000000000000000803 /* WellAllyIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000021 /* AISettingsStoreTests.swift */,
+				000000000000000000000022 /* ProviderClientTests.swift */,
+				000000000000000000000023 /* AgentLoopTests.swift */,
+			);
+			path = WellAllyIOSTests;
+			sourceTree = "<group>";
+		};
+		000000000000000000000804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000601 /* WellAllyIOS.app */,
+				000000000000000000000602 /* WellAllyIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000805 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000002 /* JSONValue.swift */,
+				000000000000000000000003 /* AIProviderConfig.swift */,
+				000000000000000000000004 /* HealthModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		000000000000000000000806 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000808 /* AI */,
+				000000000000000000000809 /* Agent */,
+				00000000000000000000080A /* HealthData */,
+				00000000000000000000080D /* Localization */,
+				00000000000000000000080B /* Security */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		000000000000000000000807 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000E /* DesignSystem.swift */,
+				00000000000000000000000F /* ContentView.swift */,
+				000000000000000000000010 /* HomeView.swift */,
+				000000000000000000000011 /* RecordsView.swift */,
+				000000000000000000000012 /* AIView.swift */,
+				000000000000000000000013 /* SettingsView.swift */,
+				000000000000000000000014 /* FamilyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		000000000000000000000808 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* LLMTypes.swift */,
+				000000000000000000000006 /* URLSessionProtocol.swift */,
+				000000000000000000000007 /* OpenAICompatibleClient.swift */,
+				000000000000000000000008 /* AnthropicClient.swift */,
+				00000000000000000000000A /* AISettingsStore.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		000000000000000000000809 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000C /* HealthToolRegistry.swift */,
+				00000000000000000000000D /* AgentLoop.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		00000000000000000000080A /* HealthData */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000B /* DemoHealthDataStore.swift */,
+			);
+			path = HealthData;
+			sourceTree = "<group>";
+		};
+		00000000000000000000080B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000009 /* KeychainService.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		00000000000000000000080C /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000015 /* en Localizable.strings */,
+				000000000000000000000016 /* zh-Hans Localizable.strings */,
+				000000000000000000000017 /* en InfoPlist.strings */,
+				000000000000000000000018 /* zh-Hans InfoPlist.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		00000000000000000000080D /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000019 /* AppLocalizer.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000501 /* WellAllyIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000A01 /* Build configuration list for PBXNativeTarget "WellAllyIOS" */;
+			buildPhases = (
+				000000000000000000000901 /* Sources */,
+				000000000000000000000701 /* Frameworks */,
+				000000000000000000000902 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = WellAllyIOS;
+			productName = WellAllyIOS;
+			productReference = 000000000000000000000601 /* WellAllyIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000502 /* WellAllyIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000A02 /* Build configuration list for PBXNativeTarget "WellAllyIOSTests" */;
+			buildPhases = (
+				000000000000000000000903 /* Sources */,
+				000000000000000000000702 /* Frameworks */,
+				000000000000000000000904 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				000000000000000000000402 /* PBXTargetDependency */,
+			);
+			name = WellAllyIOSTests;
+			productName = WellAllyIOSTests;
+			productReference = 000000000000000000000602 /* WellAllyIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					000000000000000000000501 = { CreatedOnToolsVersion = 26.2; };
+					000000000000000000000502 = { CreatedOnToolsVersion = 26.2; TestTargetID = 000000000000000000000501; };
+				};
+			};
+			buildConfigurationList = 000000000000000000000A00 /* Build configuration list for PBXProject "WellAllyIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, "zh-Hans", Base);
+			mainGroup = 000000000000000000000801;
+			productRefGroup = 000000000000000000000804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000501 /* WellAllyIOS */,
+				000000000000000000000502 /* WellAllyIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000902 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+				000000000000000000000115 /* en Localizable.strings in Resources */,
+				000000000000000000000116 /* zh-Hans Localizable.strings in Resources */,
+				000000000000000000000117 /* en InfoPlist.strings in Resources */,
+				000000000000000000000118 /* zh-Hans InfoPlist.strings in Resources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000904 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000101 /* WellAllyIOSApp.swift in Sources */,
+				000000000000000000000102 /* JSONValue.swift in Sources */,
+				000000000000000000000103 /* AIProviderConfig.swift in Sources */,
+				000000000000000000000104 /* HealthModels.swift in Sources */,
+				000000000000000000000105 /* LLMTypes.swift in Sources */,
+				000000000000000000000106 /* URLSessionProtocol.swift in Sources */,
+				000000000000000000000107 /* OpenAICompatibleClient.swift in Sources */,
+				000000000000000000000108 /* AnthropicClient.swift in Sources */,
+				000000000000000000000109 /* KeychainService.swift in Sources */,
+				00000000000000000000010A /* AISettingsStore.swift in Sources */,
+				00000000000000000000010B /* DemoHealthDataStore.swift in Sources */,
+				00000000000000000000010C /* HealthToolRegistry.swift in Sources */,
+				00000000000000000000010D /* AgentLoop.swift in Sources */,
+				00000000000000000000010E /* DesignSystem.swift in Sources */,
+				00000000000000000000010F /* ContentView.swift in Sources */,
+				000000000000000000000110 /* HomeView.swift in Sources */,
+				000000000000000000000111 /* RecordsView.swift in Sources */,
+				000000000000000000000112 /* AIView.swift in Sources */,
+				000000000000000000000113 /* SettingsView.swift in Sources */,
+				000000000000000000000114 /* FamilyView.swift in Sources */,
+				000000000000000000000119 /* AppLocalizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000201 /* AISettingsStoreTests.swift in Sources */,
+				000000000000000000000202 /* ProviderClientTests.swift in Sources */,
+				000000000000000000000203 /* AgentLoopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000402 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 000000000000000000000501 /* WellAllyIOS */; targetProxy = 000000000000000000000401 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Health Indicator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.wellally.smarthealthindicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Health Indicator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.wellally.smarthealthindicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000000000000000000000B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.wellally.smarthealthindicator.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellAllyIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellAllyIOS";
+			};
+			name = Debug;
+		};
+		000000000000000000000B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.wellally.smarthealthindicator.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellAllyIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellAllyIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000A00 /* Build configuration list for PBXProject "WellAllyIOS" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B00 /* Debug */, 000000000000000000000B01 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000A01 /* Build configuration list for PBXNativeTarget "WellAllyIOS" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B02 /* Debug */, 000000000000000000000B03 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000A02 /* Build configuration list for PBXNativeTarget "WellAllyIOSTests" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B04 /* Debug */, 000000000000000000000B05 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000301 /* Project object */;
+}
