@@ -1,6 +1,6 @@
 import Foundation
 import XCTest
-@testable import WellAllyIOS
+@testable import SmartHealthIndicator
 
 final class ProviderClientTests: XCTestCase {
     func testOpenAICompatibleRequestUsesConfiguredBaseURL() throws {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000000000000000000000101 /* WellAllyIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* WellAllyIOSApp.swift */; };
+		000000000000000000000101 /* SmartHealthIndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* SmartHealthIndicatorApp.swift */; };
 		000000000000000000000102 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000002 /* JSONValue.swift */; };
 		000000000000000000000103 /* AIProviderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003 /* AIProviderConfig.swift */; };
 		000000000000000000000104 /* HealthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000004 /* HealthModels.swift */; };
@@ -43,12 +43,12 @@
 			containerPortal = 000000000000000000000301 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 000000000000000000000501;
-			remoteInfo = WellAllyIOS;
+			remoteInfo = SmartHealthIndicator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000000000000000000000001 /* WellAllyIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellAllyIOSApp.swift; sourceTree = "<group>"; };
+		000000000000000000000001 /* SmartHealthIndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHealthIndicatorApp.swift; sourceTree = "<group>"; };
 		000000000000000000000002 /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
 		000000000000000000000003 /* AIProviderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProviderConfig.swift; sourceTree = "<group>"; };
 		000000000000000000000004 /* HealthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModels.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 		000000000000000000000021 /* AISettingsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsStoreTests.swift; sourceTree = "<group>"; };
 		000000000000000000000022 /* ProviderClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderClientTests.swift; sourceTree = "<group>"; };
 		000000000000000000000023 /* AgentLoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentLoopTests.swift; sourceTree = "<group>"; };
-		000000000000000000000601 /* WellAllyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellAllyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		000000000000000000000602 /* WellAllyIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellAllyIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000601 /* SmartHealthIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHealthIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000602 /* SmartHealthIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHealthIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,39 +89,39 @@
 		000000000000000000000801 = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000802 /* WellAllyIOS */,
-				000000000000000000000803 /* WellAllyIOSTests */,
+				000000000000000000000802 /* SmartHealthIndicator */,
+				000000000000000000000803 /* SmartHealthIndicatorTests */,
 				000000000000000000000804 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		000000000000000000000802 /* WellAllyIOS */ = {
+		000000000000000000000802 /* SmartHealthIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000001 /* WellAllyIOSApp.swift */,
+				000000000000000000000001 /* SmartHealthIndicatorApp.swift */,
 				000000000000000000000805 /* Models */,
 				000000000000000000000806 /* Services */,
 				000000000000000000000807 /* Views */,
 				00000000000000000000080C /* Localization */,
 			);
-			path = WellAllyIOS;
+			path = SmartHealthIndicator;
 			sourceTree = "<group>";
 		};
-		000000000000000000000803 /* WellAllyIOSTests */ = {
+		000000000000000000000803 /* SmartHealthIndicatorTests */ = {
 			isa = PBXGroup;
 			children = (
 				000000000000000000000021 /* AISettingsStoreTests.swift */,
 				000000000000000000000022 /* ProviderClientTests.swift */,
 				000000000000000000000023 /* AgentLoopTests.swift */,
 			);
-			path = WellAllyIOSTests;
+			path = SmartHealthIndicatorTests;
 			sourceTree = "<group>";
 		};
 		000000000000000000000804 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000601 /* WellAllyIOS.app */,
-				000000000000000000000602 /* WellAllyIOSTests.xctest */,
+				000000000000000000000601 /* SmartHealthIndicator.app */,
+				000000000000000000000602 /* SmartHealthIndicatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,9 +221,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000000000000000000000501 /* WellAllyIOS */ = {
+		000000000000000000000501 /* SmartHealthIndicator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000000000000000A01 /* Build configuration list for PBXNativeTarget "WellAllyIOS" */;
+			buildConfigurationList = 000000000000000000000A01 /* Build configuration list for PBXNativeTarget "SmartHealthIndicator" */;
 			buildPhases = (
 				000000000000000000000901 /* Sources */,
 				000000000000000000000701 /* Frameworks */,
@@ -231,14 +231,14 @@
 			);
 			buildRules = ();
 			dependencies = ();
-			name = WellAllyIOS;
-			productName = WellAllyIOS;
-			productReference = 000000000000000000000601 /* WellAllyIOS.app */;
+			name = SmartHealthIndicator;
+			productName = SmartHealthIndicator;
+			productReference = 000000000000000000000601 /* SmartHealthIndicator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		000000000000000000000502 /* WellAllyIOSTests */ = {
+		000000000000000000000502 /* SmartHealthIndicatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000000000000000A02 /* Build configuration list for PBXNativeTarget "WellAllyIOSTests" */;
+			buildConfigurationList = 000000000000000000000A02 /* Build configuration list for PBXNativeTarget "SmartHealthIndicatorTests" */;
 			buildPhases = (
 				000000000000000000000903 /* Sources */,
 				000000000000000000000702 /* Frameworks */,
@@ -248,9 +248,9 @@
 			dependencies = (
 				000000000000000000000402 /* PBXTargetDependency */,
 			);
-			name = WellAllyIOSTests;
-			productName = WellAllyIOSTests;
-			productReference = 000000000000000000000602 /* WellAllyIOSTests.xctest */;
+			name = SmartHealthIndicatorTests;
+			productName = SmartHealthIndicatorTests;
+			productReference = 000000000000000000000602 /* SmartHealthIndicatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +267,7 @@
 					000000000000000000000502 = { CreatedOnToolsVersion = 26.2; TestTargetID = 000000000000000000000501; };
 				};
 			};
-			buildConfigurationList = 000000000000000000000A00 /* Build configuration list for PBXProject "WellAllyIOS" */;
+			buildConfigurationList = 000000000000000000000A00 /* Build configuration list for PBXProject "SmartHealthIndicator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,8 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000000000000000000000501 /* WellAllyIOS */,
-				000000000000000000000502 /* WellAllyIOSTests */,
+				000000000000000000000501 /* SmartHealthIndicator */,
+				000000000000000000000502 /* SmartHealthIndicatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000000000000000101 /* WellAllyIOSApp.swift in Sources */,
+				000000000000000000000101 /* SmartHealthIndicatorApp.swift in Sources */,
 				000000000000000000000102 /* JSONValue.swift in Sources */,
 				000000000000000000000103 /* AIProviderConfig.swift in Sources */,
 				000000000000000000000104 /* HealthModels.swift in Sources */,
@@ -335,7 +335,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		000000000000000000000402 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 000000000000000000000501 /* WellAllyIOS */; targetProxy = 000000000000000000000401 /* PBXContainerItemProxy */; };
+		000000000000000000000402 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 000000000000000000000501 /* SmartHealthIndicator */; targetProxy = 000000000000000000000401 /* PBXContainerItemProxy */; };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -520,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellAllyIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellAllyIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHealthIndicator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartHealthIndicator";
 			};
 			name = Debug;
 		};
@@ -539,16 +539,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellAllyIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellAllyIOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHealthIndicator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartHealthIndicator";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000000000000000000000A00 /* Build configuration list for PBXProject "WellAllyIOS" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B00 /* Debug */, 000000000000000000000B01 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		000000000000000000000A01 /* Build configuration list for PBXNativeTarget "WellAllyIOS" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B02 /* Debug */, 000000000000000000000B03 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		000000000000000000000A02 /* Build configuration list for PBXNativeTarget "WellAllyIOSTests" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B04 /* Debug */, 000000000000000000000B05 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000A00 /* Build configuration list for PBXProject "SmartHealthIndicator" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B00 /* Debug */, 000000000000000000000B01 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000A01 /* Build configuration list for PBXNativeTarget "SmartHealthIndicator" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B02 /* Debug */, 000000000000000000000B03 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000A02 /* Build configuration list for PBXNativeTarget "SmartHealthIndicatorTests" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000B04 /* Debug */, 000000000000000000000B05 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
 /* End XCConfigurationList section */
 	};
 	rootObject = 000000000000000000000301 /* Project object */;

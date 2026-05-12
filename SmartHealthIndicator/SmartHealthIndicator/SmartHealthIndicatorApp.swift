@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct WellAllyIOSApp: App {
+struct SmartHealthIndicatorApp: App {
     @State private var settings = AISettingsStore(keychain: KeychainService())
     private let healthStore = DemoHealthDataStore()
 

@@ -1,5 +1,5 @@
 import XCTest
-@testable import WellAllyIOS
+@testable import SmartHealthIndicator
 
 final class AgentLoopTests: XCTestCase {
     func testAgentReturnsDirectAnswerWithoutTools() async throws {
